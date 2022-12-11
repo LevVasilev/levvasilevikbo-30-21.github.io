@@ -1533,8 +1533,6 @@ justify-content: center;
 }
 }
 
-
-
 @media (max-width: 1100px) {
   .menu__btn{
     margin-left: 600px;
