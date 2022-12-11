@@ -444,6 +444,9 @@ body .container .card .box .content a:hover {
   width: 100%;
   height: 300px;
 }
+    .Whyweimg{
+    height:300px;
+    }
  
 }
 
@@ -453,11 +456,16 @@ body .container .card .box .content a:hover {
     margin-left: 15px;
     margin-right: 15px;
   }
+    .Whyweimg{
+    height:300px;
+    }
+ 
     .whweimgcl{
   border-radius: 5px ;
   width: 100%;
   height: 300px;
 }
+    
  
   
   .sname{
