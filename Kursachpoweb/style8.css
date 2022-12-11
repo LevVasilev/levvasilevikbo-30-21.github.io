@@ -402,7 +402,42 @@ body .container .card .box .content a:hover {
 
 }
 
- 
+ @media (max-width: 650px){
+  body{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .Head{margin-left:100px;
+  }
+  .sname{
+    font-size: 12px;
+   }
+    .Menu{
+        visibility: hidden;
+    }
+    .number{
+        visibility: hidden;
+    }
+    .menu__btn{
+      margin-left:300px;
+      
+  }
+  .menu__box{
+    margin-left: 0;
+    height:450px;
+  }
+  .foot1{
+    display: flex;
+    flex-direction: inline;
+    width:100px;
+    margin-left:-65px;
+}
+}
+@media (max-width: 540px) {
+  .Head{
+    margin-left:0px;
+  }
+}
 @media (max-width: 400px) {
  
   body{
