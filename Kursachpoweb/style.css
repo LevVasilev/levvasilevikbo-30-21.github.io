@@ -265,7 +265,6 @@ opacity: 1;
   grid-template-rows: repeat(1,auto);
   gap:30px;
   justify-content: center;
-  
 }
 .Newg{
   width: 100%;
@@ -302,18 +301,13 @@ h2{
 .imgch1{
   display: flex;
   flex-direction: column;
-  
-  
-  
  
 }
 .imgch2{
   display: flex;
   flex-direction: column;
-  
-  
+ 
 }
-
 
 .ourch:hover{
   border: 2px solid #FFA700; 
@@ -1690,9 +1684,10 @@ justify-content: center;
     justify-items: center;
     margin-left:100px;
      
-      
-  
-
+ 
+}
+.Head{
+  margin-left:30px;
 }
 .menu__btn{
     margin-left:300px;
