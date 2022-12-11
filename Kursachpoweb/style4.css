@@ -396,10 +396,17 @@ body{
   .Fast{
     padding-left: 10px;
   }
+   .flex-container{
+    grid-template-columns: auto;
+    grid-template-rows: repeat(9,auto);
+  }
   body{
     margin-left: 15px;
     margin-right: 15px;
   }
+    .sname{
+    font-size:12px;
+    }
   .flex-container{
     width:368px;
   }
