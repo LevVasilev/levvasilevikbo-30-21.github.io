@@ -26,7 +26,7 @@ function checkValidity(event) {
 
 async function sendData(data) {
   return await fetch('/api/file:///C:/Me/Kursachpoweb/html.html', {
-    method: 'POST',
+    method: 'GET',
     
     headers: { 'Content-Type': 'multipart/form-data' },
     body: data,
