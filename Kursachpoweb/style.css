@@ -1439,6 +1439,8 @@ padding-right: 15px;
 .Sowhy{
 text-align: center;
 padding-top: 30px;
+display:flex;
+justify-items: center;
 
 }
 
