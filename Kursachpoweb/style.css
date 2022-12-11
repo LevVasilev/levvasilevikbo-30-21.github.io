@@ -1440,6 +1440,14 @@ padding-bottom: 30px;
     justify-content: center;
    
   }
+  .Choise{
+margin-top: 30px;
+grid-template-columns: repeat(2,auto);
+grid-template-rows: repeat(2,auto);
+gap:30px;
+justify-content: center;
+
+}
 }
 @media (max-width: 1200px) {
   .introduction{
@@ -1533,14 +1541,7 @@ padding-bottom: 30px;
   }
 }
 
-.Choise{
-margin-top: 30px;
-grid-template-columns: repeat(2,auto);
-grid-template-rows: repeat(2,auto);
-gap:30px;
-justify-content: center;
 
-}
 @media (max-width: 995px) {
   .Firstgame{
     margin-top:50px;
