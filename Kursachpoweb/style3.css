@@ -331,6 +331,9 @@ body{
     margin-left: 0;
     height:450px;
   }
+     .end{
+    margin-left:60px;
+    }
 }
  @media (max-width: 420px){
      .menu__btn{
@@ -366,8 +369,10 @@ body{
     display: flex;
     flex-direction: inline;
     width:100px;
-    
 }
+    .end{
+    margin-left:60px;
+    }
 
 
 }
