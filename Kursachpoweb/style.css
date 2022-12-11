@@ -1840,6 +1840,15 @@ visibility: hidden;
 }
 
 }
+@media (max-width: 420px) {
+.Choise{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left:55px;
+
+}
+}
 @media (max-width: 400px) {
 body{
   margin-left:15px;
