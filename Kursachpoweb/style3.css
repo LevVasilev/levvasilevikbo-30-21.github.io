@@ -327,6 +327,10 @@ body{
     .menu__btn{
       margin-left:350px;
   }
+    .menu__box{
+    margin-left: 0;
+    height:450px;
+  }
 }
  
 @media (max-width: 400px) {
