@@ -1432,76 +1432,17 @@ padding-bottom:30px;
 padding-top:30px;
 padding-bottom: 30px;
 }
-@media (max-width: 995px) {
-  .Firstgame{
-    margin-top:50px;
-  }
-  .menu__box{
-    margin-left:-1000px;
-    padding-top:50px;
-    height:450px;
-  }
-  
-  
-  .menu__btn > span,
-  .menu__btn > span::before,
-  .menu__btn > span::after {
-    display: block;
-    position: absolute;
-    width: 35px;
-    height: 2px;
-    background-color: #FFA700;
-    
-    
-  }
-}
 
-@media (max-width: 890px){
-  .sname{
-    padding-right: -50px;
-
-  }
-  .menu__btn{
-    padding-left: -600px;
-  }
-  .Bgames{
-    margin-left: 50px;
-  }
-  .Firstgame{
-    margin-top:150px;
-  }
-  .introduction{
-    margin-left: -100px;
-    width:400px;
-    
-  }
-  .text-box{
-    padding-left:-100px;
-  }
-  .videoq {
-    width:300px;
-    
-  }
-  .video{
-    width: 100%;
-  }
-   
-  .socialsic {
-    display:flex;
+@media (max-width: 1400px) {
+  .imgblock{
+        
     flex-direction: column;
-    margin-top: 150px;
-    margin-left: 0px;
-    margin-bottom:-250px;
-    padding-left: -50px;
-  }
-  .socialsic li a{
-    margin-top:60px;
-  }
-}
-
-@media(max-width:1040){
-  .Firstgame{
-    margin-left: -550px;
+    align-items: center;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(2,auto);
+    justify-items: center;
+    justify-content: center;
+   
   }
 }
 @media (max-width: 1200px) {
@@ -1523,7 +1464,7 @@ padding-bottom: 30px;
     .text-box{
       display:flex;
       margin-left: 80px;
-      
+      margin-bottom: 15px;
       }
     .intro1{
       display: flex;
@@ -1566,7 +1507,7 @@ padding-bottom: 30px;
   height:400px;
 }
 .menu__btn{
-  margin-left: 750px;
+  margin-left: 650px;
 }
 
 .menu__btn > span,
@@ -1582,22 +1523,20 @@ padding-bottom: 30px;
 }
 
 .menu__box{
-  margin-left:1000px;
+  margin-left:900px;
   
   height:450px;
 }
 }
-@media (max-width: 1400px) {
-.imgblock{
-      
-  flex-direction: column;
-  align-items: center;
-  grid-template-columns: auto;
-  grid-template-rows: repeat(2,auto);
-  justify-items: center;
-  justify-content: center;
- 
+
+
+
+@media (max-width: 1100px) {
+  .menu__btn{
+    margin-left: 600px;
+  }
 }
+
 .Choise{
 margin-top: 30px;
         
@@ -1608,7 +1547,88 @@ gap:30px;
 justify-content: center;
 
 }
+@media (max-width: 995px) {
+  .Firstgame{
+    margin-top:50px;
+  }
+  .menu__box{
+    margin-left:550px;
+    padding-top:50px;
+    height:450px;
+  }
+  .menu__btn{
+    margin-left:500px;
+  }
+  
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 35px;
+    height: 2px;
+    background-color: #FFA700;
+    
+    
+  }
+  .socialsic {
+    display:flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-left: 200px;
+    margin-bottom:-250px;
+  }
 }
+
+
+
+
+@media (max-width: 891px){
+  .sname{
+    padding-right: -50px;
+
+  }
+  .menu__btn{
+    margin-left: 400px;
+  }
+  .menu__box{
+    margin-left: 650px;
+  }
+  .Bgames{
+    margin-left: 50px;
+  }
+  .Firstgame{
+    margin-top:150px;
+  }
+  .introduction{
+    margin-left: -100px;
+    width:400px;
+    
+  }
+  .text-box{
+    padding-left:-150px;
+  }
+  .videoq {
+    width:300px;
+    
+  }
+  .video{
+    width: 100%;
+  }
+   
+  .socialsic {
+    display:flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-left: 0px;
+    margin-bottom:-250px;
+    padding-left: -50px;
+  }
+  .socialsic li a{
+    margin-top:60px;
+  }
+}
+
 
 @media (max-width: 750px) {
   body{
@@ -1641,6 +1661,9 @@ justify-content: center;
 .socialsic{
   margin-left: 85px;
   margin-top:180px;
+}
+.fotul2{
+  visibility: hidden;
 }
 
 }
