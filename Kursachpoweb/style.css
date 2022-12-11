@@ -1428,6 +1428,19 @@ padding-bottom:30px;
 padding-top:30px;
 padding-bottom: 30px;
 }
+.iam{
+font-size: smaller;
+text-align: right;
+}
+
+.fotul1{
+padding-right: 15px;
+}
+.Sowhy{
+text-align: center;
+padding-top: 30px;
+
+}
 
 @media (max-width: 1400px) {
   .imgblock{
@@ -1786,10 +1799,6 @@ body{
 }
 .Firstgame{
   margin-top: 20px;
-  
-  
-  
-  
 }
 .text-box{
 display:flex;
@@ -1867,19 +1876,5 @@ margin-left:-25px;
 .fotul2{
   visibility: hidden;
 }
-
-}
-
-.iam{
-font-size: smaller;
-text-align: right;
-}
-
-.fotul1{
-padding-right: 15px;
-}
-.Sowhy{
-text-align: center;
-padding-top: 30px;
 
 }
