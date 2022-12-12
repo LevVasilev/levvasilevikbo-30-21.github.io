@@ -1848,6 +1848,9 @@ visibility: hidden;
   margin-left:55px;
 
 }
+  .mob{
+  margin-left:0px;
+  }
 }
 @media (max-width: 400px) {
 body{
@@ -1864,6 +1867,9 @@ body{
 .socialsic li a{
   margin-top:60px;
 }
+  .mob{
+  margin-left:0px;
+  }
 .sname{
   font-size: 12px;
  }
