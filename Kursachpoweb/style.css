@@ -1851,6 +1851,10 @@ visibility: hidden;
   .mob{
   margin-left:-20px;
   }
+  .menu__btn{
+      margin-left:280px;
+      
+  }
 }
 @media (max-width: 400px) {
 body{
@@ -1898,7 +1902,7 @@ body{
 
   }
   .menu__btn{
-      margin-left:300px;
+      margin-left:280px;
       
   }
   .imgblock{
