@@ -1849,7 +1849,7 @@ visibility: hidden;
 
 }
   .mob{
-  margin-left:0px;
+  margin-left:-20px;
   }
 }
 @media (max-width: 400px) {
@@ -1868,7 +1868,7 @@ body{
   margin-top:60px;
 }
   .mob{
-  margin-left:0px;
+  margin-left:-20px;
   }
 .sname{
   font-size: 12px;
