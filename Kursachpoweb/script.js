@@ -27,7 +27,7 @@ var checkFieldsPresence = function () {
       var error = generateError('Заполните поле')
       form[i].parentElement.insertBefore(error, fields[i])
     }
-    else{
+     else if (fields[0].value && fields[1].value){
         form.submit();
     }
   }
