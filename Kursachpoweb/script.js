@@ -25,7 +25,7 @@ function checkValidity(event) {
 }
 
 async function sendData(data) {
-  return await fetch('/api/file:///C:/Me/Kursachpoweb/html.html', {
+  return await fetch('https://levvasilev.github.io/levvasilevikbo-30-21.github.io/', {
     method: 'GET',
     
     headers: { 'Content-Type': 'multipart/form-data' },
