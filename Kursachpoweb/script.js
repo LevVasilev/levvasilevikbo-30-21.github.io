@@ -1,83 +1,45 @@
+var form = document.querySelector('.needs-validation')
+var validateBtn = form.querySelector('.validateBtn')
+var from = form.querySelector('.log')
+var password = form.querySelector('.password')
+var fields = form.querySelectorAll('.field')
 
-function toggleLoader() {
-  const loader = document.getElementById('loader')
-  loader.classList.toggle('hidden')
+var generateError = function (text) {
+  var error = document.createElement('div')
+  error.className = 'error'
+  error.style.color = 'red'
+  error.innerHTML = text
+  return error
 }
 
-function onSuccess(formNode) {
-  alert('Ваша заявка успешно отправлена!')
-  formNode.classList.toggle('hidden')
-}
+var removeValidation = function () {
+  var errors = form.querySelectorAll('.error')
 
-function onError(error) {
-  alert(error.message)
-}
-
-function serializeForm(formNode) {
-  const data = new FormData(formNode)
-  return data
-}
-
-function checkValidity(event) {
-  const formNode = event.target.form
-  const isValid = formNode.checkValidity()
-  formNode.querySelector('submit').disabled = !isValid
-}
-
-async function sendData(data) {
-  return await fetch('https://levvasilev.github.io/levvasilevikbo-30-21.github.io/', {
-    method: 'GET',
-    
-    headers: { 'Content-Type': 'multipart/form-data' },
-    body: data,
-  })
-}
-return new Promise(resolve => {
-    setTimeout(() => {
-    resolve({
-    status: 400,
-    error: {
-     message: 'Что-то пошло не так!'
-    }
-    })
-     })
-     })
-
-    
-
-
-  
-
-
-async function handleFormSubmit(event) {
-  event.preventDefault()
-  const data = serializeForm(event.target)
-
-  toggleLoader()
-  const { status, error } = await sendData(data)
-  toggleLoader()
-
-  if (status === 200) onSuccess(event.target)
-  else onError(error)
-}
-
-const applicantForm = document.getElementById('mars-once')
-applicantForm.addEventListener('submit', handleFormSubmit)
-applicantForm.addEventListener('input', checkValidity)
-
-applicantForm.querySelector('submit').disabled = true
-
-async function handleFormSubmit(event) {
-    event.preventDefault()
-    const data = serializeForm(event.target)
-  
-    toggleLoader()
-    const { status } = await sendData(data)
-    toggleLoader()
-  
-    if (status === 200) {
-      onSuccess(event.target)
-    }
-    
+  for (var i = 0; i < errors.length; i++) {
+    errors[i].remove()
   }
+}
+
+var checkFieldsPresence = function () {
+  for (var i = 0; i < fields.length; i++) {
+    if (!fields[i].value) {
+      console.log('field is blank', fields[i])
+      var error = generateError('Заполните поле')
+      form[i].parentElement.insertBefore(error, fields[i])
+    }
+    else{
+        form.submit();
+    }
+  }
+}
+
+
+
+form.addEventListener('submit', function (event) {
+  event.preventDefault()
+
+  removeValidation()
+
+  checkFieldsPresence()
   
+})
