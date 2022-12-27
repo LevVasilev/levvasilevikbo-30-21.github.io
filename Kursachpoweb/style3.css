@@ -342,6 +342,9 @@ body{
      .fotul1{
      padding-left:80px;
      }
+     .end{
+     margin-left:0px;
+     }
     }  
  
 @media (max-width: 400px) {
