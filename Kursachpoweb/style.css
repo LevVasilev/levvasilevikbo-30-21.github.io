@@ -1857,6 +1857,12 @@ visibility: hidden;
   margin-left:55px;
 
 }
+  .boxx .square:nth-child(2) {
+  visibility: hidden;
+}
+.boxx .square:nth-child(6) {
+  visibility: hidden;
+}
   .mob{
   margin-left:-20px;
   }
