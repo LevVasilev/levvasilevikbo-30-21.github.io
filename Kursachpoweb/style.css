@@ -240,9 +240,8 @@ opacity: 1;
   padding-bottom: 10px;
   
 }
-.sectch:hover{
-  background-color: #B8882B;
-  border: 2px solid #FFA700; 
+.sectch{
+  
   text-align: left;
   border-radius: 10px;
 }
@@ -254,9 +253,11 @@ opacity: 1;
   
 }
 
-.sectch{
+.sectchh:hover{
+  background-color: #B8882B;
+  border: 2px solid #FFA700; 
   font-size: 15px;
-  
+  border-radius: 10px;
 }
 .Choise{
   margin-top: 30px;
