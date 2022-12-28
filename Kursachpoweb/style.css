@@ -325,6 +325,9 @@ h2{
   
   width:100%;
 }
+.imgch img{
+  border-radius: 10px;
+}
 #rectangle3{
   width: auto;
   height: 100px;
