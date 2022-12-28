@@ -710,49 +710,7 @@ left: 0;
   transform: translateX(0);
   margin-left: 10px;
  }
- .imageBox ul {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  background: rgba(0,0,0, 0.2);
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
- }
- .imageBox ul li {
-  list-style: none;
-  width: 20%;
-  text-align: center;
- }
- .imageBox ul li a {
-  color: #ffffff;
-  display: block;
-  padding: 10px;
- }
- .imageBox ul li:hover:nth-child(1) {
-  background: #3d5999;
- }
- .imageBox ul li:hover:nth-child(2) {
-  background: #55acee;
- }
- .imageBox ul li:hover:nth-child(3) {
-  background: #dd4d39;
- }
- .imageBox ul li:hover:nth-child(4) {
-  background: #0077B5;
- }
- .imageBox ul li:hover:nth-child(5) {
-  background: #8a3ab9;
- }
- .imageBox:hover ul {
-  -webkit-transform: translateY(-135%);
-  -moz-transform: translateY(-135%);
-  -ms-transform: translateY(-135%);
-  -o-transform: translateY(-135%);
-  transform: translateY(-135%);
- }
+ 
  
 
  .dws-wrapper {
